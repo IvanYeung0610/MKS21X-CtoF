@@ -12,4 +12,8 @@ public class CtoFTester {
     final double conversionConstant = 9.0/5.0;
     return (celsius * conversionConstant) + 32.0;
   }
+  public static double fahrenheitToCelsius(double fahrenheit) {
+    final double conversionConstant = 5.0/9.0;
+    return (fahrenheit - 32) * conversionConstant;
+  }
 }
