@@ -6,7 +6,10 @@ Celsius.)
 **/
 public class CtoFTester {
   public static void main(String[] args) {
-
+    double degreesInCelsius = 35.8;
+    double degreesInfahrenheit = 56.7;
+    System.out.println(celsiusToFahrenheit(degreesInCelsius));
+    System.out.println(fahrenheitToCelsius(degreesInfahrenheit));
   }
   public static double celsiusToFahrenheit(double celsius) {
     final double conversionConstant = 9.0/5.0;
